@@ -1,2 +1,2 @@
-# default-project1
+# default-project
 Default OpenChoreo Project
