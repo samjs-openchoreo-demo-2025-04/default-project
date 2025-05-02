@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: default-project1
+  description: Default OpenChoreo Project
+  annotations:
+    github.com/project-slug: samjs-openchoreo-demo-2025-04/default-project1
+    # backstage.io/kubernetes-label-selector: 'core.choreo.dev/organization=default-org,core.choreo.dev/name=default-project1'
+    backstage.io/kubernetes-id: default-project1
+  tags:
+    - openchoreo
+    - project
+  links:
+    - url: https://github.com/samjs-openchoreo-demo-2025-04/default-project1
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/openchoreo/openchoreo
+      title: OpenChoreo
+      icon: web
+spec:
+  owner: guests
