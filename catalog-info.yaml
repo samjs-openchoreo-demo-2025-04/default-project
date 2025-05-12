@@ -9,6 +9,9 @@ metadata:
   tags:
     - openchoreo
     - project
+  labels:
+    core.choreo.dev/organization: default-org
+    core.choreo.dev/name: default-project
   links:
     - url: https://github.com/samjs-openchoreo-demo-2025-04/default-project
       title: GitHub Repo
